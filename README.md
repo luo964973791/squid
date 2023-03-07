@@ -10,5 +10,5 @@ systemctl start squid
 
 ### 一、在没有互联网的服务器执行
 ```javascript
-export http_proxy=http://x.x.x.x:3128/
+export http_proxy=http://x.x.x.x:3128/    #有互联网服务器的IP
 ```
